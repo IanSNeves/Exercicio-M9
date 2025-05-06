@@ -1,0 +1,39 @@
+.added-tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    background-color: var(--background-color);
+}
+
+.added-tasks .task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 0.1rem solid var(--black);
+}
+
+.added-tasks .delete-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.added-tasks .task-item p {
+    padding: 0 1.5rem;
+    cursor: pointer;
+}
+
+.added-tasks .task-item p.completed {
+    text-decoration: line-through;
+}
+
+.added-tasks .btn:hover {
+    background-color: var(--hover-color);
+    }
+    
+.added-tasks .btn:active {
+    background-color: var(--dark-secondary-color);
+    }
+

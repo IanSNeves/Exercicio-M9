@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do taref</title>
+    <link rel="stylesheet" href="./css/extends.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="max-width">
+        <img src="./assents/logo.svg" alt="logo do taref" class="icon" id="logo">
+        <h1 class="title">Do Task</h1>
+    </header>
+    <main>
+        <div class="max-width task-addition">
+            <h2 class="secundary-title">Adicionar nova tarefa</h2>
+            <form id="form">
+                <input type="text" class="task-input" id="task" placeholder="Digite sua tarefa aqui...">
+                <button type="submit" class="btn-primary btn">Adicionar +</button>
+            </form>
+        </div>
+        <section class="max-width added-tasks">
+            <h2 class="tertiary-title">Tarefas adicionadas</h2>
+            <div id="tasks-container">
+                <ul id="task-list">
+                    <!-- As tarefas serão adicionadas aqui -->
+                </ul>
+                <div class="delete-button-container" id="del__button-container">
+                    <button class="delete-button btn" id="del__all">Excluir todas</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="max-width">
+        <p>&copy; 2025 Do Task. Todos os direitos reservados.</p>
+    </footer>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

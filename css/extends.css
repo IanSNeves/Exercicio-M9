@@ -1,0 +1,7 @@
+@import url("./global.css");
+@import url("./variables.css");
+
+@import url("./componets/addedTask.css");
+@import url("./componets/footer.css");
+@import url("/css/componets/header.css");
+@import url("./componets/newTask.css");
